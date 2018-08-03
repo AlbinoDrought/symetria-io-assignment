@@ -1,6 +1,8 @@
 <template>
   <img
     class="crypto icon"
+    :alt="alt"
+    :title="alt"
     v-show="hasIcon"
     :src="icon"
   />
@@ -23,6 +25,10 @@ const CRYPTO_ICON_MAP = {
 
 export default {
   computed: {
+    alt() {
+      return `${this.currency} icon`;
+    },
+    
     icon() {
       return CRYPTO_ICON_MAP[this.currency];
     },
