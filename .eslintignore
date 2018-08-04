@@ -4,3 +4,4 @@
 /*.js
 /test/unit/coverage/
 /src/api/ApiMock.original.js
+/src/components/Spinner.vue

@@ -28,7 +28,7 @@ export default {
     alt() {
       return `${this.currency} icon`;
     },
-    
+
     icon() {
       return CRYPTO_ICON_MAP[this.currency];
     },

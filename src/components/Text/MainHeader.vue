@@ -5,7 +5,7 @@
 </template>
 
 <style scoped>
-div.main.header {
+.main.header {
   font-size: 35px;
   margin: 0px;
   padding-top: 20px;

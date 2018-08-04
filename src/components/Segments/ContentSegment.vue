@@ -5,7 +5,7 @@
 </template>
 
 <style scoped>
-div.content.segment {
+.content.segment {
   background-color: #FFF;
   padding-left: 13px;
   padding-right: 13px;

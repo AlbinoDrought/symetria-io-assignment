@@ -42,3 +42,37 @@ function GetWallets() {
 	});
 
 }
+
+/* modified after here */
+
+// add a GetExchangeRates function, mimicking GetWallets
+function GetExchangeRates() {
+
+	return new Promise(function (resolve, reject) {
+
+		setTimeout(function () {
+
+			if (Math.random() < 0.2) {
+				reject("Could not connect to server");
+				return;
+			}
+
+			resolve(ExchangeRatesToCAD);
+
+		}, 250);
+
+	});
+
+}
+
+export {
+	// export both structs so they can be (easily) used
+	// in other scripts
+	Wallet,
+	ExchangeRate,
+	
+	// export both functions so they can be (easily) used
+	// in other scripts
+	GetWallets,
+	GetExchangeRates,
+};

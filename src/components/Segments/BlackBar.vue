@@ -1,9 +1,9 @@
 <template>
-  <div class="black bar" />
+  <div class="black bar segment" />
 </template>
 
 <style scoped>
-div.black.bar {
+.black.bar.segment {
   background-color: #230913;
   height: 14px;
 }

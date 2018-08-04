@@ -3,7 +3,7 @@
     <span
       v-if="triangle"
       class="triangle"
-    /> 
+    />
     {{ sign }}{{ changeText }}
   </span>
 </template>
@@ -62,11 +62,6 @@ export default {
 
     change: {
       type: Number,
-      required: true,
-    },
-
-    currency: {
-      type: String,
       required: true,
     },
   },

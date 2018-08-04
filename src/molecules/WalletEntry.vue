@@ -1,6 +1,6 @@
 <template>
   <div class="wallet entry molecule">
-    <crypto-icon 
+    <crypto-icon
       class="icon"
       v-bind="{ currency }"
     />
@@ -83,7 +83,7 @@ export default {
   border: 1px solid #E4E4E4;
   display: flex;
   flex-direction: row;
-  
+
   padding-left: 12px;
   padding-right: 12px;
   padding-top: 23px;
